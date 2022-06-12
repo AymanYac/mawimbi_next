@@ -10,7 +10,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <PageTemplate title="About - Collosal">
+    <PageTemplate title="A propos - MawimbiTech">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
@@ -29,9 +29,9 @@ const About = () => {
           data-aos="fade-up-left"
         >
           <PageSentence
-            badge="ABOUT"
-            title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            badge="Qui sommes nous ?"
+            title="Nous sommes des accélérateurs africains"
+            description={`Parler de nos connexions avec le tissu social africain, nos compétences multi-modales`}
           />
         </aside>
       </section>
@@ -42,8 +42,8 @@ const About = () => {
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="STATISTICS"
-            title="In 3 years we reached 8 countries, 193 clients and earning $100k USD"
+            badge="En chiffres"
+            title="X conseillers, Y ingénieurs, Z actifs de la société civile"
           />
         </div>
         <div className="w-full grid gap-14">
@@ -59,51 +59,51 @@ const About = () => {
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="OUR TEAMS"
-            title="Meet the team! All creative people are here"
+            badge="Notre équipe"
+            title="Les visages de MawimbiTech"
           />
         </div>
         <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-1.webp"
-              job="Founder"
-              name="Albert Flores"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-2.webp"
-              job="Chief Technology Officer"
-              name="Devon Lane"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-3.webp"
-              job="UI Designer"
-              name="Darrell Steward"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-4.webp"
-              job="Software Engineer"
-              name="Marvin McKinney"
+              imageSrc="/images/team-k.jpg"
+              job="Cofounder, Finance Managing Director"
+              name="Kawtar MAWAS"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/team-5.webp"
-              job="System Analyst"
-              name="Floyd Miles"
+              job="Chief Technology Officer"
+              name="Akram Bachiri"
+            />
+          </div>
+          <div data-aos="fade-up">
+            <TeamCard
+              imageSrc="/images/team-a.jpg"
+              job="Cofounder, Managing Director"
+              name="Ayman YACHAOUI"
+            />
+          </div>
+          <div data-aos="fade-up">
+            <TeamCard
+              imageSrc="/images/team-y.jpg"
+              job="Chief Strategy Officer"
+              name="Amine Bekkali"
+            />
+          </div>
+          <div data-aos="fade-up">
+            <TeamCard
+              imageSrc="/images/team-x.jpg"
+              job="Chief Operations Officer"
+              name="Sanae LAALEJ"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/team-6.webp"
-              job="Project Manager"
-              name="Annette Black"
+              job="Data Solutions Officer"
+              name="Fassinou OUANDAOGO"
             />
           </div>
         </div>

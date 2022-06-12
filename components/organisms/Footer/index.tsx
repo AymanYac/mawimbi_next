@@ -16,7 +16,7 @@ const Footer = () => {
                 textStyle="SectionParagraph"
               />
               <Text
-                value={`Design By Collosal LLC`}
+                value={`Powered by Africa`}
                 textStyle="SectionParagraph"
               />
             </div>

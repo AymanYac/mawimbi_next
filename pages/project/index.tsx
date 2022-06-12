@@ -39,8 +39,8 @@ const Project = () => {
         >
           <div className="text-center md:text-left">
             <PageSentence
-              badge="PROJECTS"
-              title="We have completed many amazing projects that you will not believe"
+              badge="Spotlight"
+              title="Nos réalisations les plus récentes cette année"
             />
           </div>
         </aside>
@@ -68,7 +68,7 @@ const Project = () => {
             )
           })}
         </div>
-        <Button value="Load More" color="white" style="light" />
+        <Button value="Et plus encore ..." color="white" style="light" />
       </section>
     </PageTemplate>
   )

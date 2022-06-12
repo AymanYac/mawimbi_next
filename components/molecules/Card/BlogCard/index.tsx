@@ -57,7 +57,7 @@ const BlogCard = ({
           <Image src={authorAvatarSrc} width={50} height={50} alt="Blog Author Avatar" />
           <div className="">
               <Text textStyle='AuthorNamePreview' value={authorName}  />
-              <Text textStyle='BlogMeta' value={`${launchDate} • ${readTime} read`}  />
+              <Text textStyle='BlogMeta' value={`${launchDate} • ${readTime} pour lire`}  />
           </div>
       </div>
     </div>
